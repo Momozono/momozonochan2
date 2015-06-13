@@ -1,3 +1,9 @@
+GIT
+  remote: https://gist.github.com/2a999f37a9441661cfa8.git
+  revision: 8f8e6221f01de892113c22bbe8a2648090c34f49
+  specs:
+    nfu (0.0.1)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -20,9 +26,6 @@ GEM
     minitest (5.4.2)
     multipart-post (2.0.0)
     rake (10.3.2)
-    redis (3.1.0)
-    redis-namespace (1.5.1)
-      redis (~> 3.0, >= 3.0.4)
     ruboty (1.0.4)
       activesupport
       bundler
@@ -41,10 +44,6 @@ GEM
       faraday
       faraday_middleware
       ruboty
-    ruboty-redis (0.0.5)
-      redis
-      redis-namespace
-      ruboty
     ruboty-slack (0.1.7)
       ruboty (>= 1.0.4)
       xrc (>= 0.0.6)
@@ -59,10 +58,10 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  nfu!
   rake
   ruboty-alias
   ruboty-cron
   ruboty-echo
   ruboty-google_image
-  ruboty-redis
   ruboty-slack
