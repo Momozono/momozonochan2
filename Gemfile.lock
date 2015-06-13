@@ -35,6 +35,8 @@ GEM
       activesupport
       chrono
       ruboty (>= 0.2.0)
+    ruboty-echo (0.1.0)
+      ruboty
     ruboty-google_image (0.0.7)
       faraday
       faraday_middleware
@@ -60,6 +62,7 @@ DEPENDENCIES
   rake
   ruboty-alias
   ruboty-cron
+  ruboty-echo
   ruboty-google_image
   ruboty-redis
   ruboty-slack
