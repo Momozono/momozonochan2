@@ -1,8 +1,8 @@
 GIT
   remote: https://gist.github.com/2a999f37a9441661cfa8.git
-  revision: 8f8e6221f01de892113c22bbe8a2648090c34f49
+  revision: 7f97940b5fa2036ad595a1fb9ba4b3658dab6e2e
   specs:
-    nfu (0.0.1)
+    omokoro-random (0.0.1)
 
 GEM
   remote: https://rubygems.org/
@@ -58,7 +58,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  nfu!
+  omokoro-random!
   rake
   ruboty-alias
   ruboty-cron

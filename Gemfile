@@ -9,5 +9,4 @@ gem "ruboty-slack"
 
 gem "ruboty-echo"
 
-#gem "omokoro_search", :git => "https://gist.github.com/bd44b9ec774f676cdbb2.git"
-gem "nfu", :git => "https://gist.github.com/2a999f37a9441661cfa8.git"
+gem "omokoro-random", :git => "https://gist.github.com/2a999f37a9441661cfa8.git"
