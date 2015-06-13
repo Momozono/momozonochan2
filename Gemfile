@@ -8,5 +8,6 @@ gem "ruboty-google_image"
 gem "ruboty-slack"
 
 gem "ruboty-echo"
+gem "anemone"
 
 gem "omokoro-random", :git => "https://gist.github.com/2a999f37a9441661cfa8.git"
